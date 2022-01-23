@@ -1,0 +1,33 @@
+Author: Mykola Omelchenko
+mmomelchen42@tntech.edu
+
+
+Project Title:
+CSC 1300-001 Programming Assignment 2: Standard Math Program
+
+
+Description:
+The program will ask the user to input a positive integer, and then it will perform a set of mathematical tasks. 
+Given the positive integer input (e.g., n), the program will (1) compute the sum of 1 to n, (2) compute the factorial value of n, 
+(3) display the times table of n in a certain way, (4) check whether n is even or odd, (5) check whether or not n is a prime number, and 
+(6) check whether or not n is an Armstrong number.It is expected the program will continue the aforementioned operations for every 
+positive integer; however, if and only if the user inputs 0, then the program should terminate itself. If the user inputs a negative number, 
+then your program should not perform the aforementioned operations and ask the user to input a positive number instead to perform the tasks.
+
+
+Prerequisites:
+iostream
+cmath
+
+
+
+Execution:
+
+Step 1. Unzip the folder and then go to the folder
+Step 2. Run your terminal from the folder
+Step 3. Compile the code using the following command
+g++ -o program1 program.cpp 
+Step 4. Execute the code using the following command
+./program1
+Step 5. After successful execution and evaluating the program, please remove the executable file using the following command
+rm program1
